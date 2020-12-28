@@ -1,0 +1,99 @@
+.App{
+  margin:0px;
+  padding:0px;
+}
+
+/* Header */
+.Header{
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 0px;
+}
+.Header h1{
+  padding: 25px;
+  margin: 0;
+}
+.Header p{
+  font-size: 20px;
+}
+.Header img{
+  width: 30%;
+  height: 30%;
+}
+
+/* Button */
+button {
+  background-color: white;
+  border: none;
+}
+.Content button{
+  margin-left: 90px;
+  margin-bottom: 20px;
+}
+
+/* Content */
+.Content{
+  width: 100%;
+}
+.Content1 ul{
+  padding: 10px 0px 0px 80px;
+}
+.Content1 li{
+  padding : 40px 0px 40px 20px;
+  text-align: left;
+  border-bottom: 1px solid lightgray;
+}
+
+.Content2 {
+  width: 100%;
+  background-color: lightgray;
+  text-align: left;
+  padding: 100px 30px;
+}
+.Content2 h2, .Content2 p{
+  padding-left: 100px;
+}
+
+.Content_middle{
+  padding: 50px 0px;
+}
+.Content_middle input, .Content_middle button{
+  width: 70%;
+  display: block;
+  margin: auto;
+  padding: 10px 10px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
